@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/item_photo_background">
+
+
+
+    <edu.pku.gg.gosplash.common.ui.AdaptiveImageView
+        android:id="@+id/item_photo_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true" />
+
+
+    <TextView
+        android:id="@+id/item_photo_title"
+        android:textColor="@color/colorTextLight"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="1"
+        android:shadowColor="@color/colorTextDark2nd"
+        android:layout_marginLeft="@dimen/normal_margin"
+        android:layout_marginRight="@dimen/normal_margin"
+        android:layout_marginBottom="@dimen/little_margin"
+        android:singleLine="true"
+        android:text="By Gao Ge, On 2016-10-24"
+        style="@style/subtitle_text" />
+
+</RelativeLayout>

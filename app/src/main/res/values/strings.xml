@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">GoSplash</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="no_data">Whoops, something wrong.</string>
+    <string name="retry">Click to try again!</string>
+
+    <string name="all">ALL</string>
+    <string name="curated">CURATED</string>
+    <string name="featured">FEATURED</string>
+
+    <string name="new_">NEW</string>
+    <string name="old">OLD</string>
+    <string name="popular">POPULAR</string>
+</resources>

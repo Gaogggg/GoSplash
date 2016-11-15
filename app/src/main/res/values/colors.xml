@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <!-- theme -->
+    <color name="colorPrimary_light">#fafafa</color>
+    <color name="colorPrimary_dark">#212121</color>
+
+    <color name="colorPrimaryDark_light">#f1f1f1</color>
+    <color name="colorPrimaryDark_dark">#1a1a1a</color>
+
+    <color name="colorAccent_light">@color/colorTextTitle_light</color>
+    <color name="colorAccent_dark">@color/colorTextTitle_dark</color>
+
+    <!-- UI. -->
+    <color name="colorRoot_light">@color/colorPrimary_light</color>
+    <color name="colorLine_light">#e0e0e0</color>
+
+    <color name="colorRoot_dark">@color/colorPrimary_dark</color>
+    <color name="colorLine_dark">#292929</color>
+
+    <!-- text color -->
+    <color name="colorTextTitle_light">@color/colorTextDark</color>
+    <color name="colorTextSubtitle_light">@color/colorTextGrey</color>
+    <color name="colorTextContent_light">@color/colorTextDark2nd</color>
+
+    <color name="colorTextTitle_dark">@color/colorTextLight</color>
+    <color name="colorTextSubtitle_dark">@color/colorTextGrey2nd</color>
+    <color name="colorTextContent_dark">@color/colorTextLight2nd</color>
+
+    <color name="colorTextDark">#424242</color>
+    <color name="colorTextDark2nd">#757575</color>
+    <color name="colorTextGrey">#9e9e9e</color>
+    <color name="colorTextGrey2nd">#bdbdbd</color>
+    <color name="colorTextLight">#fafafa</color>
+    <color name="colorTextLight2nd">#f5f5f5</color>
+    <color name="colorTextWarningRed">#f15151</color>
+
+    <color name="primary">#3C515C</color>
+    <color name="primary_dark">#142E3C</color>
+    <color name="accent">#40C4FF</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="black_20">#33000000</color>
+    <color name="white_20">#33FFFFFF</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="text_enabled">#FFFFFFFF</color>
+    <color name="text_disabled">#4DFFFFFF</color>
+
+    <color name="icon_enabled">#FFFFFFFF</color>
+    <color name="icon_disabled">#FF63727B</color>
+
+    <color name="medium_text_enabled">#FF000000</color>
+    <color name="medium_text_disabled">#4D000000</color>
+
+    <color name="light_blue_500">#03A9F4</color>
+    <color name="cyan_500">#00BCD4</color>
+    <color name="teal_500">#009688</color>
+    <color name="green_500">#4CAF50</color>
+    <color name="light_green_500">#8BC34A</color>
+
+    <integer-array name="custom_tab_colors">
+        <item>@color/light_blue_500</item>
+        <item>@color/cyan_500</item>
+        <item>@color/teal_500</item>
+        <item>@color/green_500</item>
+        <item>@color/light_green_500</item>
+    </integer-array>
+
+    <color name="google_blue">#4285F4</color>
+    <color name="google_red">#EA4335</color>
+    <color name="google_green">#34A853</color>
+    <color name="google_yellow">#FBBC05</color>
+
+    <color name="refresh_header_color">#39AEC2</color>
+
+</resources>

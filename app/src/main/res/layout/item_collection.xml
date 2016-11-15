@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/item_collection_background"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+
+    <edu.pku.gg.gosplash.common.ui.AdaptiveImageView
+        android:id="@+id/item_collection_cover"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:adjustViewBounds="true" />
+
+
+    <TextView
+        android:id="@+id/item_collection_subtitle"
+        android:textColor="@android:color/white"
+        android:singleLine="true"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="1"
+        android:shadowColor="@color/colorTextDark2nd"
+        android:alpha="0.9"
+        android:layout_marginLeft="@dimen/normal_margin"
+        android:layout_marginRight="@dimen/normal_margin"
+        android:layout_marginBottom="@dimen/little_margin"
+        android:layout_alignParentBottom="true"
+        style="@style/subtitle_text"
+        tools:text="3 photos"/>
+
+    <TextView
+        android:id="@+id/item_collection_title"
+        android:textColor="@android:color/white"
+        android:singleLine="true"
+        android:textSize="@dimen/large_title_text_size"
+        android:textStyle="bold"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="1"
+        android:shadowColor="@color/colorTextDark2nd"
+        android:layout_marginLeft="@dimen/normal_margin"
+        android:layout_marginRight="@dimen/normal_margin"
+        style="@style/title_text"
+        android:text="THIS IS THE COLLECTION TITLE"/>
+
+    <TextView
+        android:id="@+id/item_collection_descrption"
+        android:textColor="@color/colorTextLight"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="1"
+        android:shadowColor="@color/colorTextDark2nd"
+        android:layout_marginLeft="@dimen/normal_margin"
+        android:layout_marginRight="@dimen/normal_margin"
+        android:layout_marginTop="28dp"
+        android:singleLine="true"
+        android:text="this is the collection descrption"
+        style="@style/subtitle_text" />
+
+</RelativeLayout>

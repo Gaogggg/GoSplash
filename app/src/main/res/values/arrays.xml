@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="query_suggestions">
+        <item>BOOK</item>
+        <item>PERSON</item>
+        <item>SEA</item>
+        <item>COLOR</item>
+        <item>TREE</item>
+    </string-array>
+
+</resources>
